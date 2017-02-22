@@ -8,14 +8,22 @@
   },
   "dependencies": {
     "react": "~15.4.0",
-    "react-native": "0.41.2"
+    "react-native": "0.41.2",
+    "react-native-ui-library": "https://github.com/frankielun/react-native-ui-library.git",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.8.1",
+    "redux-storage": "^4.1.2",
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
     "babel-jest": "19.0.0",
     "babel-preset-react-native": "1.9.1",
     "eslint": "^3.16.0",
+    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-react-native": "^2.2.1",
     "jest": "19.0.1",
-    "react-test-renderer": "~15.4.0"
+    "react-test-renderer": "~15.4.0",
+    "redux-devtools": "^3.3.2"
   },
   "jest": {
     "preset": "react-native"
